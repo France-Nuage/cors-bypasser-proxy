@@ -1,0 +1,18 @@
+name = "dynamic-api-proxy"
+main = "src/index.js"
+compatibility_date = "2023-01-01"
+
+# Configuration de l'environnement
+[env.production]
+# Vous pouvez ajuster les limites de requêtes selon vos besoins
+workers_dev = true
+
+[env.staging]
+workers_dev = true
+name = "dynamic-api-proxy-staging"
+
+# Configuration des KV Namespaces si vous souhaitez ajouter du cache
+# [kv_namespaces]
+# [[kv_namespaces]]
+# binding = "API_CACHE"
+# id = "xxxx" # Remplacez par votre ID après création via la commande wrangler

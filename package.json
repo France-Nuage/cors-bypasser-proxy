@@ -1,0 +1,17 @@
+{
+    "name": "dynamic-api-proxy",
+    "version": "1.0.0",
+    "description": "Proxy dynamique pour API avec gestion automatique de l'en-tête Host",
+    "main": "src/index.js",
+    "scripts": {
+      "dev": "wrangler dev",
+      "publish": "wrangler publish",
+      "format": "prettier --write '**/*.{js,css,json,md}'"
+    },
+    "author": "Your Name",
+    "license": "MIT",
+    "devDependencies": {
+      "prettier": "^2.8.8",
+      "wrangler": "^3.0.0"
+    }
+  }
