@@ -4,6 +4,7 @@ compatibility_date = "2023-01-01"
 
 # Configuration de l'environnement
 [env.production]
+name = "cors-bypasser-proxy"
 # Vous pouvez ajuster les limites de requêtes selon vos besoins
 workers_dev = true
 
