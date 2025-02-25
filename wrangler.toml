@@ -1,4 +1,4 @@
-name = "dynamic-api-proxy"
+name = "cors-bypasser-proxy"
 main = "src/index.js"
 compatibility_date = "2023-01-01"
 
@@ -9,7 +9,7 @@ workers_dev = true
 
 [env.staging]
 workers_dev = true
-name = "dynamic-api-proxy-staging"
+name = "cors-bypasser-proxy-staging"
 
 # Configuration des KV Namespaces si vous souhaitez ajouter du cache
 # [kv_namespaces]
